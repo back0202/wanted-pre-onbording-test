@@ -15,7 +15,8 @@
 		"import/no-unresolved": "off",
 		"import/extensions": ["error", "never"],
 		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-		"react/self-closing-comp": "error"
+		"react/self-closing-comp": "error",
+		"prettier/prettier": ["error", { "endOfLine": "auto" }]
 	},
 	"parserOptions": {
 		"project": "./tsconfig.json"
