@@ -11,7 +11,7 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"no-console": ["error", { "allow": ["warn", "error", "info"] }],
+		// "no-console": ["error", { "allow": ["warn", "error", "info"] }],
 		"import/no-unresolved": "off",
 		"import/extensions": ["error", "never"],
 		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],

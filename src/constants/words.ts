@@ -1,9 +1,11 @@
 const words = {
-	email: 'Email',
-	password: 'Password',
-	signIn: 'signIn',
-	signUp: 'signUp',
-	emailRegexValue: /@/,
-	passwordRegexValue: 8,
+	EMAIL: 'Email',
+	PASSWORD: 'Password',
+	SIGNIN: 'signIn',
+	SIGNUP: 'signUp',
+	EMAIL_REGEX_VALUE: /@/,
+	BEARER: 'Bearer',
+	PASSWORD_REGEX_VALUE: 8,
+	auth: 'auth/',
 };
 export default words;
