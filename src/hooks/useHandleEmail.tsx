@@ -6,7 +6,7 @@ function useHandleEmail() {
 	const [isEmail, setIsEmail] = useState(false);
 
 	const handleEmail = (event: React.ChangeEvent<HTMLInputElement>) => {
-		const emailRegex = words.emailRegexValue;
+		const emailRegex = words.EMAIL_REGEX_VALUE;
 		setEmail(event.target.value);
 		if (!emailRegex.test(event.target.value)) {
 			setIsEmail(false);

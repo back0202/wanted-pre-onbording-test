@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { words } from 'constants/index';
 
 function useHandleTab() {
-	const [tab, setTab] = useState(words.signUp);
+	const [tab, setTab] = useState(words.SIGNIN);
 	const handleTab = () => {
-		setTab((prev) => (prev === words.signIn ? words.signUp : words.signIn));
+		setTab((prev) => (prev === words.SIGNIN ? words.SIGNUP : words.SIGNIN));
 	};
 	return { tab, handleTab };
 }
